@@ -15,6 +15,8 @@ docker run -it -d --name sam -v /var/run/docker.sock:/var/run/docker.sock -p 110
 docker run -it -d --name sam -v /var/run/docker.sock:/var/run/docker.sock -p 11130:3000 -p 11131:3001 -v $(pwd):/workdir -w /workdir sam-docker:node18.19.1
 
 docker run -it -d --name sam -v /var/run/docker.sock:/var/run/docker.sock -p 11130:3000 -p 11131:3001 -v $(pwd):/workdir -w /workdir sam-docker:node20.12.1
+
+docker run -it -d --name sam -v /var/run/docker.sock:/var/run/docker.sock -p 11130:3000 -p 11131:3001 -v $(pwd):/workdir -w /workdir sam-docker:node22.14.0
 ```
 
 ```bash
